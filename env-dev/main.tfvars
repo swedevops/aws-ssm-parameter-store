@@ -12,6 +12,3 @@ parameters = [
 ]
 env = "dev"
 
-#
-#Environment=MONGO=true
-#Environment=MONGO_URL="mongodb://mongodb-dev.swedev99.online:27017/catalogue"
