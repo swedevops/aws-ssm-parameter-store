@@ -1,3 +1,4 @@
+env = "dev"
 parameters = [
   { name = "dev.frontend.catalogue_url", value = "http://catalogue-dev.swedev99.online:8080/" },
   { name = "dev.frontend.cart_url", value = "http://cart-dev.swedev99.online:8080/" },
@@ -8,4 +9,4 @@ parameters = [
   { name = "dev.catalogue.mongo", value = "MONGO=true" },
   {  name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.swedev99.online:27017/catalogue" }
 ]
-env = "dev"
+
