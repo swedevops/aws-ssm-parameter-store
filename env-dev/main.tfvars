@@ -5,10 +5,12 @@ parameters = [
   { name = "dev.frontend.shipping_url", value = "http://shipping-dev.swedev99.online:8080/" },
   { name = "dev.frontend.payment_url", value = "http://payment-dev.swedev99.online:8080/" },
   { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.swedev99.online" },
-  { name = "dev.catalogue.mongo", value = "MONGO=true" }
+  { name = "dev.catalogue.mongo", value = "MONGO=true" },
+  {  name = "dev.catalogue.MONGO_URL", value = "mongodb://mongodb-dev.swedev99.online:27017/catalogue\""}
 
 
 
 ]
 env = "dev"
 
+MONGO_URL="{{ lookup('aws_ssm', 'dev.catalogue.mongo_endpoint', region='us-east-1') }}"
