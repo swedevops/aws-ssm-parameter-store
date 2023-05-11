@@ -13,4 +13,4 @@ parameters = [
 ]
 env = "dev"
 
-MONGO_URL="{{ lookup('aws_ssm', 'dev.catalogue.mongo_endpoint', region='us-east-1') }}"
+
