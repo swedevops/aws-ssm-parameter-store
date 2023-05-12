@@ -17,7 +17,4 @@ parameters = [
 
 ]
 
-REDIS_HOST=redis-dev.swedev99.online
-Environment=CATALOGUE_HOST=catalogue-dev.swedev99.online
-Environment=CATALOGUE_PORT=8080
 
