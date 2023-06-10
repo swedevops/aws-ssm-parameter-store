@@ -14,7 +14,7 @@ parameters = [
   {  name = "dev.cart.catalogue_host", value = "catalogue-dev.swedev99.online" },
   {  name = "dev.cart.catalogue_port", value = "80" },
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.swedev99.online:80" },
-  { name = "dev.shipping.db_host", value = "mysql-dev.swedev99.online" },
+  { name = "dev.rds.db_host", value = "rds-dev-rds.cluster-ccvy25ccngeb.us-east-1.rds.amazonaws.com" },
   { name = "dev.shipping.db_user", value = "root" },
   {  name = "dev.payment.cart_host", value = "cart-dev.swedev99.online" },
   {  name = "dev.payment.cart_port", value = "80" },
