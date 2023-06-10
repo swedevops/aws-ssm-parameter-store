@@ -13,7 +13,7 @@ parameters = [
   {  name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.2ib3kh.ng.0001.use1.cache.amazonaws.com:" },
   {  name = "dev.cart.catalogue_host", value = "catalogue-dev.swedev99.online" },
   {  name = "dev.cart.catalogue_port", value = "80" },
-  { name = "dev.shipping.cart_endpoint", value = "cart-dev.swedev99.online:8080" },
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.swedev99.online:80" },
   { name = "dev.shipping.db_host", value = "mysql-dev.swedev99.online" },
   { name = "dev.shipping.db_user", value = "root" },
   {  name = "dev.payment.cart_host", value = "cart-dev.swedev99.online" },
@@ -26,7 +26,7 @@ parameters = [
 
 ]
 passwords = [
-  { name = "dev.shipping.amqp_user", value = "roboshop" },
+  { name = "dev.shipping.db_pass", value = "RoboShop@1" },
   {  name = "dev.payment.amqp_pass", value = "roboshop123" },
   { name = "dev.docdb.db_user", value = "roboshop" },
   { name = "dev.docdb.db_pass", value = "roboshop123456" },
