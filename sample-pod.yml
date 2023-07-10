@@ -3,11 +3,17 @@ kind: Pod
 metadata:
   name: sample-pod
   annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::494970943538:role/eks-ssm-ps-dev-role
 spec:
+  serviceAccountName: oidc-ssm
   containers:
     - name: demo
       image: 494970943538.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store
       imagePullPolicy: Always
-
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: oidc-ssm
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::494970943538:role/eks-ssm-ps-dev-role
 
