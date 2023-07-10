@@ -20,5 +20,6 @@ spec:
       env:
         - name: PARAMS
           value: "dev.payment.cart_port dev.payment.user_port dev.payment.cart_host"
+
 ---
 
