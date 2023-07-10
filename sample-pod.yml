@@ -18,8 +18,7 @@ spec:
       image: 494970943538.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store
       imagePullPolicy: Always
       env:
-        env:
-          - name: PARAMS
-            value: "dev.payment.cart_port dev.payment.user_port dev.payment.cart_host"
+        - name: PARAMS
+          value: "dev.payment.cart_port dev.payment.user_port dev.payment.cart_host"
 ---
 
