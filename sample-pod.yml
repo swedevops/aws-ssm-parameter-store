@@ -1,7 +1,7 @@
-apiVersin: v1
-kind: pod
+apiVersion: v1
+kind: Pod
 metadata:
-  name:sample-pod
+  name: sample-pod
 spec:
   containers:
     - name:demo
