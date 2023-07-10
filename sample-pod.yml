@@ -17,4 +17,9 @@ spec:
     - name: demo
       image: 494970943538.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store
       imagePullPolicy: Always
+      env:
+        env:
+          - name: PARAMS
+            value: "prod.payment.cart_port prod.payment.user_port prod.payment.cart_host"
+---
 
