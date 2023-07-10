@@ -4,6 +4,6 @@ metadata:
   name: sample-pod
 spec:
   containers:
-    - name:demo
-    - image: 494970943538.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest
+    - name: demo
+      image: 494970943538.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store
       imagePullPolicy: Always
