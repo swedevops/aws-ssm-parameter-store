@@ -9,7 +9,7 @@ parameters = [
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.catalogue.documentdb", value = "true" },
   { name = "dev.user.mongo", value = "DOCUMENTDB=true" },
-  { name = "dev.catalogue.documentdb", value = "true" },
+  { name = "dev.user.documentdb", value = "true" },
   { name = "dev.user.redis_host", value = "elasticache-dev-elasticache-001.eua4rj.0001.use1.cache.amazonaws.com" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.swedev99.online" },
   {  name = "dev.cart.redis_host", value = "elasticache-dev-elasticache-001.eua4rj.0001.use1.cache.amazonaws.com" },
